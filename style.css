@@ -1,0 +1,48 @@
+body {
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    margin: auto;
+}
+
+.container {
+    background-image: url(/Images/depositphotos_33765721-stock-illustration-carbon-fiber-texture-seamless-vector.jpg);
+    display: grid;
+    padding: 50px 10px 50px 10px;
+    border: 10px solid rgb(105, 105, 105);
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px black;
+    border-style: outset;
+    margin: 100px auto auto auto;
+    width: 400px;
+}
+
+.output {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 50px 16px auto 16px;
+    text-align: right;
+    font-size: 32px;
+    background-color: antiquewhite;
+}
+
+.numpad {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    margin: 30px 10px 10px 10px;
+}
+
+.btn {
+    font-size: 40px;
+    color: antiquewhite;
+    background-color: black;
+    border-radius: 50px;
+}
+
+button:active {
+    transform: translateY(3px);
+}
