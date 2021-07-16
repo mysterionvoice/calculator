@@ -9,35 +9,33 @@
     </head>
     <body>
         <div class = "container">
-            <img src = "Images/index.png">
-            <div class = "output">0</div>
-            <div class = "input">
-                <div class = "numpad">
-                    <button class="btn" data-clear>C</button>
-                    <button class="btn" data-allclear>AC</button>
-                    <button class="btn" percent>%</button>
-                    <button class="btn" data-bspace><i class="fas fa-backspace"></i></button>
-                    
-                    <button class="btn" data-number>7</button>
-                    <button class="btn" data-number>8</button>
-                    <button class="btn" data-number>9</button>
-                    <button class="btn" data-operator>÷</button>
+            <img src = "Images/index.png" class = "logo">
+            <input type = "text" class = "output" disabled>
+            <div class = "numpad">
+                <img src = "Images/solcell1.png" class = "solar">
+                <p></p>
+                <button class = "operator" value = "C">C</button>
+                <button class = "operator" value = "AC">AC</button>
+                
+                <button value = "7">7</button>
+                <button value = "8">8</button>
+                <button value = "9">9</button>
+                <button class = "operator" value = "/">÷</button>
 
-                    <button class="btn" data-number>4</button>
-                    <button class="btn" data-number>5</button>
-                    <button class="btn" data-number>6</button>
-                    <button class="btn" data-operator>×</button>
+                <button value = "4">4</button>
+                <button value = "5">5</button>
+                <button value = "6">6</button>
+                <button class = "operator" value = "*">×</button>
 
-                    <button class="btn" data-number>1</button>
-                    <button class="btn" data-number>2</button>
-                    <button class="btn" data-number>3</button>
-                    <button class="btn" data-operator>−</button>
+                <button value = "1">1</button>
+                <button value = "2">2</button>
+                <button value = "3">3</button>
+                <button class = "operator" value = "-">−</button>
 
-                    <button class="btn" data-point>.</button>
-                    <button class="btn" data-number>0</button>
-                    <button class="btn" data-equals>=</button>
-                    <button class="btn" data-operator>+</button>
-                </div>
+                <button value = ".">.</button>
+                <button value = "0">0</button>
+                <button class = "operator" value = "=">=</button>
+                <button class = "operator" value = "+">+</button>
             </div>
         </div>
     <script src = "script.js"></script>
